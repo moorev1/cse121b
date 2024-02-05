@@ -20,7 +20,7 @@ if (profileImage) {
 }
 
 // Step 4: Arrays
-const favoriteFoods = ['Pizza', 'Ice Cream', 'Sushi']; 
+const favoriteFoods = ['Pizza', 'Ice Cream', ]; 
 
 // Add another favorite food
 const newFavoriteFood = 'Burgers';
