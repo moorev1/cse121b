@@ -6,7 +6,7 @@ const templeList = [];
 
 // Step 4: Function - displayTemples
 const displayTemples = (temples) => {
-  templesElement.innerHTML = ""; // Clear previous content
+  templesElement.innerHTML = ""; 
 
   temples.forEach((temple) => {
     const article = document.createElement("article");
@@ -37,7 +37,7 @@ const getTemples = async () => {
 
 // Step 9: Function - reset
 const reset = () => {
-  templesElement.innerHTML = ""; // Clear the content of the div
+  templesElement.innerHTML = ""; 
 };
 
 // Step 10: Function - filterTemples
@@ -77,8 +77,7 @@ const sortBy = () => {
 
   switch (selectedValue) {
     // Implement sorting logic based on selected option values
-    // For example, you might sort by name, location, or any other criteria
-    // Update this part based on your requirements
+    //  sort by name, location, or any other criteria
     case "name":
       sortedTemples = templeList.slice().sort((a, b) => a.templeName.localeCompare(b.templeName));
       break;
